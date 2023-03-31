@@ -18,7 +18,7 @@ public class DBHelper {
             Class.forName("com.mysql.cj.jdbc.Driver");
             try {
                 Conn = DriverManager.getConnection(URL,USERNAME,PSW);
-                String sql = "select * from "
+                String sql = "select * from ";
             } catch (SQLException e) {
                 e.printStackTrace();
             }

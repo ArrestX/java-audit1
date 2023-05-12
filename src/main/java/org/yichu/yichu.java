@@ -1,4 +1,4 @@
-package org.example;
+package org.yichu;
 
 public class yichu {
     public static void main(String[] args) {

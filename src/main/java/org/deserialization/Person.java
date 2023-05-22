@@ -21,6 +21,9 @@ public class Person implements Serializable {
         this.name = name;
     }
 
+    public void action(String act){
+        System.out.println("action方法");
+    }
     private transient int age;
     private String name;
     private void readObject(ObjectInputStream ois) throws IOException,ClassNotFoundException{

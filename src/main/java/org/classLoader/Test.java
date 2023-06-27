@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Test {
     static {
         try {
-            Runtime.getRuntime().exec("open -a Calculator");
+            Runtime.getRuntime().exec("calc");
 
         }catch (IOException e){
             e.printStackTrace();
